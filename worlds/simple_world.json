@@ -1,0 +1,22 @@
+{
+  "trucks": [{
+    "id": 0,
+    "x": 0,
+    "y": 0,
+    "capacity": 0,
+    "range": 0
+  }],
+  "stores": [{
+    "id": 0,
+    "x": 1,
+    "y": 1,
+    "capacity": 0,
+    "products": [],
+    "demand": []
+  }],
+  "warehouse": {
+    "x": 0,
+    "y": 0
+  },
+  "products": []
+}

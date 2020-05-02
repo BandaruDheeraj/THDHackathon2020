@@ -1,0 +1,50 @@
+{
+  "trucks": [
+    {
+      "id": 0,
+      "x": 0,
+      "y": 0,
+      "capacity": 1,
+      "range": 1
+    }
+  ],
+  "stores": [
+    {
+      "id": 0,
+      "x": 1,
+      "y": 1,
+      "capacity": 1,
+      "products": [
+        {
+          "name": "apple",
+          "quantity": 1
+        }
+      ],
+      "demand": [
+        [
+          {
+            "name": "apple",
+            "quantity": 1
+          }
+        ],
+        [
+          {
+            "name": "apple",
+            "quantity": 1
+          }
+        ]
+      ]
+    }
+  ],
+  "warehouse": {
+    "x": 0,
+    "y": 0
+  },
+  "products": [
+    {
+      "name": "apple",
+      "value": 1,
+      "weight": 1
+    }
+  ]
+}

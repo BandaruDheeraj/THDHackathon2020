@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "name": "Light Bulb",
+      "store_max": 1000,
+      "weight": 1,
+      "price": 5
+    },
+    {
+      "name": "Hot Plate",
+      "store_max": 200,
+      "weight": 5,
+      "price": 20
+    },
+    {
+      "name": "Refrigerator",
+      "store_max": 50,
+      "weight": 50,
+      "price": 500
+    },
+    {
+      "name": "Oven",
+      "store_max": 100,
+      "weight": 25,
+      "price": 300
+    },
+    {
+      "name": "Christmas Tree",
+      "store_max": 50,
+      "weight": 10,
+      "price": 40
+    }
+  ],
+  "stores": [
+    {
+      "name": "Ponce",
+      "location": [
+        0,
+        0
+      ],
+      "initial": [
+        1000,
+        200,
+        50,
+        100,
+        50
+      ],
+      "restock": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cumberland",
+      "location": [
+        -50,
+        50
+      ],
+      "initial": [
+        200,
+        100,
+        0,
+        0,
+        0
+      ],
+      "restock": [
+        0,
+        0,
+        50,
+        100,
+        0
+      ]
+    },
+    {
+      "name": "Peachtree Corners",
+      "location": [
+        50,
+        50
+      ],
+      "initial": [
+        300,
+        100,
+        20,
+        50,
+        50
+      ],
+      "restock": [
+        50,
+        50,
+        0,
+        0,
+        50
+      ]
+    }
+  ],
+  "trucks": [
+    {
+      "name": "Van",
+      "max_distance": 500,
+      "max_capacity": 100,
+      "location": "Ponce"
+    },
+    {
+      "name": "Box",
+      "max_distance": 100,
+      "max_capacity": 1000,
+      "location": "Cumberland"
+    }
+  ]
+}

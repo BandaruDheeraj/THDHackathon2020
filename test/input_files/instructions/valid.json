@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "action": "load",
+      "truck": 0,
+      "products": [
+        {
+          "name": "apple",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "truck": 0,
+      "x": 1,
+      "y": 0
+    }
+  ],
+  [
+    {
+      "action": "move",
+      "truck": 0,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "action": "unload",
+      "truck": 0,
+      "store": 0,
+      "products": [
+        {
+          "name": "apple",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+]

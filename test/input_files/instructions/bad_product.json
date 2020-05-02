@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "action": "load",
+      "truck": 0,
+      "products": [
+        {
+          "name": "hammer",
+          "quantity": 100
+        }
+      ]
+    }
+  ]
+]
